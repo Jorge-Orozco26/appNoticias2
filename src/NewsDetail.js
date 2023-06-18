@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { useRoute } from "@react-navigation/native";
 
-const NewsDetail ({ navigation }) => {
+const NewsDetail = ({ navigation }) => {
     const route = useRoute();
     const newsItem = route.params?.newsItem;
 
